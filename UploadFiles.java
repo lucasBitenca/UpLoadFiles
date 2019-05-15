@@ -24,8 +24,8 @@ class UploadFiles {
 			this.upFidInc = upFIdInc;
 	}
 	
-	public String getUPFDtInc(){
-		return upFidInc;
+	public Date getUPFDtInc(){
+		return upFdtInc;
 	}
 	public void setUPFDtInc() {
 		this.upFdtInc = new Date();
